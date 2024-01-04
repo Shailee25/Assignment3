@@ -1,0 +1,64 @@
+body {
+    background-image: url(maldives.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+
+  }
+  
+  .lhs {
+    float: left;
+    padding-left: 150px;
+    color: white;
+  }
+  
+  .lhs:hover {
+    color: red;
+  }
+  .menu {
+    float: right;
+  
+  }
+  
+  .menu > a {
+    margin: 30px;
+    font-size: large;
+    font-weight: bold;
+    color: white;
+  }
+  
+  .menu > a:hover {
+    color: yellow;
+  }
+.discover {
+    padding: 20px;
+  }
+  
+  .places > h1 {
+    color: black;
+    width: fit-content;
+    height: min-content;
+    text-align: center;
+    padding-top: 130px;
+    margin-left: 500px;
+  }
+  .pics {
+    display: flex;
+    flex-direction: row;
+    margin-left: 200px;
+    width: fit-content;
+  }
+  
+  .pics > img {
+    position: relative;
+    width: 250px;
+    height: 200px;
+    padding: 10px;
+    border-radius: 30px;
+  }
+  
+  .pics > h2 {
+    background-color: white;
+    width: fit-content;
+    border-radius: 5px;
+    text-decoration: underline;
+  }

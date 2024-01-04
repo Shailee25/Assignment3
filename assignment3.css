@@ -1,0 +1,20 @@
+
+
+
+*/
+
+.footer {
+  display: flex;
+  border: solid 2px red;
+  flex-direction: row;
+  color: black;
+  gap: 250px;
+  height: max-content;
+}
+
+
+
+.f1>a{color: yellow;font-size: small;text-align: center; }
+.f2>a{color: yellow;font-size: small;text-align: center;}
+.f3>a{color: yellow;font-size: small;text-align: center;}
+.f4>a{color: yellow;font-size: small;text-align: center;}

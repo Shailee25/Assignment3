@@ -1,0 +1,50 @@
+body {
+  background-image: url(maldives.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.lhs {
+  float: left;
+  padding-left: 150px;
+  color: black;
+  font-size: larger;
+}
+
+.menu {
+  float: right;
+}
+
+.menu > a {
+  margin: 30px;
+  font-size: larger;
+  font-weight: bolder;
+  color: black;
+}
+
+.menu > a:hover {
+  color: rgb(139, 0, 0);
+}
+
+.box1 {
+  display: flex;
+  gap: 500px;
+  margin-top: 50px;
+  margin-left: 150px;
+  border: 2px solid grey;
+  flex-direction: row;
+}
+
+.box2 {
+  display: flex;
+  margin-top: 50px;
+  margin-left: 150px;
+  border: 2px solid red;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.box2>p{width: 250px; height: 300px;}
+
+.box2>img{width: 200px; flex-basis: 100px;}
+

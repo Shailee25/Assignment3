@@ -1,0 +1,76 @@
+body {
+  background-image: url(maldives.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.lhs {
+  float: left;
+  padding-left: 150px;
+  color: black;
+  font-size: larger;
+}
+
+.menu {
+  float: right;
+}
+
+.menu > a {
+  margin: 30px;
+  font-size: larger;
+  font-weight: bolder;
+  color: black;
+}
+
+.menu > a:hover {
+  color: rgb(139, 0, 0);
+}
+
+.container {
+  width: 450px;
+  padding: 200px;
+}
+
+.container > .heading {
+  color: white;
+  font-size: larger;
+}
+
+.container > .heading > h2 {
+  margin-top: 20px;
+  color: maroon;
+  font-weight: bolder;
+}
+
+.heading > h1 {
+  margin-top: 10px;
+}
+
+.heading > h1 > a {
+  background-color: blue;
+  border-radius: 5px;
+}
+
+button {
+  background-color: green;
+  padding: 15px 32px;
+  border-radius: 20px;
+  border: solid 1px black;
+  font-size: small;
+  font-weight: bolder;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  border: solid 2px red;
+  color: white;
+  height: max-content;
+  column-gap: 220px;
+}
+
+
+.f1>a:hover{color: yellow; text-decoration: underline;}
+.f2>a:hover{color: yellow;text-decoration: underline;}
+.f3>a:hover{color: yellow;text-decoration: underline;}
+.f4>a:hover{color: yellow;text-decoration: underline;}
